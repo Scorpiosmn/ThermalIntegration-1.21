@@ -1,0 +1,30 @@
+{
+  "type": "thermal:tree_extractor",
+  "trunk": {
+    "Name": "biomesoplenty:palm_log",
+    "Properties": {
+      "axis": "y"
+    }
+  },
+  "leaves": {
+    "Name": "biomesoplenty:palm_leaves",
+    "Properties": {
+      "persistent": "false"
+    }
+  },
+  "sapling": "biomesoplenty:palm_sapling",
+  "min_height": 8,
+  "max_height": 12,
+  "min_leaves": 16,
+  "max_leaves": 24,
+  "result": {
+    "fluid": "thermal:resin",
+    "amount": 15
+  },
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_biomesoplenty"
+    }
+  ]
+}

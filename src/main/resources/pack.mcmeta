@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": {
+      "translate": "pack.thermal_integration.description"
+    },
+    "pack_format": 15
+  }
+}

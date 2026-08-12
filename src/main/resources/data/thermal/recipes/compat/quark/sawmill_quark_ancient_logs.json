@@ -1,0 +1,24 @@
+{
+  "type": "thermal:sawmill",
+  "ingredient": {
+    "tag": "quark:ancient_logs"
+  },
+  "result": [
+    {
+      "item": "quark:ancient_planks",
+      "count": 6
+    },
+    {
+      "item": "thermal:sawdust",
+      "chance": 1.25
+    }
+  ],
+  "energy": 1000,
+  "experience": 0.15,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_quark"
+    }
+  ]
+}

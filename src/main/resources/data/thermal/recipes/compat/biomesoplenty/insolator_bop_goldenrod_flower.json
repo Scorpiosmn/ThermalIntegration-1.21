@@ -1,0 +1,18 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "biomesoplenty:goldenrod"
+  },
+  "result": [
+    {
+      "item": "biomesoplenty:goldenrod",
+      "chance": 2.0
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_biomesoplenty"
+    }
+  ]
+}

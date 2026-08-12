@@ -1,0 +1,27 @@
+{
+  "type": "thermal:tree_extractor",
+  "trunk": {
+    "Name": "biomesoplenty:hellbark_log"
+  },
+  "leaves": {
+    "Name": "biomesoplenty:hellbark_leaves",
+    "Properties": {
+      "persistent": "false"
+    }
+  },
+  "sapling": "biomesoplenty:hellbark_sapling",
+  "min_height": 6,
+  "max_height": 12,
+  "min_leaves": 12,
+  "max_leaves": 18,
+  "result": {
+    "fluid": "minecraft:lava",
+    "amount": 10
+  },
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_biomesoplenty"
+    }
+  ]
+}

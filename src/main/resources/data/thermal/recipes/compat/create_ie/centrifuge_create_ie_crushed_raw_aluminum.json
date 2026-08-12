@@ -1,0 +1,23 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "create:crushed_raw_aluminum"
+  },
+  "result": [
+    {
+      "item": "immersiveengineering:nugget_aluminum",
+      "count": 9
+    }
+  ],
+  "energy": 1600,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_create"
+    },
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_immersiveengineering"
+    }
+  ]
+}
