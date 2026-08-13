@@ -1,0 +1,32 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "tconstruct:molten_rose_gold",
+      "amount": 90
+    },
+    {
+      "item": "thermal:chiller_ingot_cast"
+    }
+  ],
+  "result": [
+    {
+      "item": "tconstruct:rose_gold_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 4800,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_tconstruct"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "cofh_core:flag_set",
+        "flag": "thermal:rose_gold"
+      }
+    }
+  ]
+}

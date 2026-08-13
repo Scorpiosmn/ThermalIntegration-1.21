@@ -1,0 +1,23 @@
+{
+  "type": "thermal:press",
+  "neoforge:conditions": [
+    {
+      "flag": "thermal:steel",
+      "type": "cofh_core:flag_set"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel",
+      "count": 4
+    },
+    {
+      "item": "thermal:press_gear_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:steel_gear"
+    }
+  ]
+}

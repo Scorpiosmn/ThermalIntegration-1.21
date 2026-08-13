@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:lead_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:lead_essence"
+    },
+    {
+      "item": "mysticalagriculture:lead_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}

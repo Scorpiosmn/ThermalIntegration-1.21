@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#c:storage_blocks/aluminum",
+    "#c:storage_blocks/raw_aluminum",
+    "#c:storage_blocks/raw_uranium",
+    "#c:storage_blocks/rose_gold",
+    "#c:storage_blocks/steel",
+    "#c:storage_blocks/uranium"
+  ]
+}

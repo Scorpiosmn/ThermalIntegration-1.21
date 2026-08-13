@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:uranium"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_at_least_9_uranium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "count": {
+              "min": 9
+            },
+            "items": "thermal:uranium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thermal:storage/uranium_ingot_from_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_uranium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thermal:uranium_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_at_least_9_uranium_ingot",
+      "has_uranium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thermal:storage/uranium_ingot_from_block"
+    ]
+  }
+}

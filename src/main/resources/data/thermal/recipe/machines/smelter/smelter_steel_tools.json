@@ -1,0 +1,19 @@
+{
+  "type": "thermal:smelter_recycle",
+  "neoforge:conditions": [
+    {
+      "tag": "c:tools/steel",
+      "type": "cofh_core:tag_exists"
+    }
+  ],
+  "ingredient": {
+    "tag": "c:tools/steel"
+  },
+  "result": [
+    {
+      "item": "thermal:steel_ingot",
+      "count": 1
+    }
+  ],
+  "experience": 0.4
+}

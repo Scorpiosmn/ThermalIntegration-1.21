@@ -1,14 +1,21 @@
 package cofh.thermal.integration.init.data.tables;
 
 import cofh.lib.init.data.loot.BlockLootSubProviderCoFH;
+import net.minecraft.core.HolderLookup;
 
 import static cofh.thermal.core.ThermalCore.BLOCKS;
 import static cofh.thermal.core.ThermalCore.ITEMS;
 import static cofh.thermal.core.util.RegistrationHelper.deepslate;
+import static cofh.thermal.core.util.RegistrationHelper.raw;
 import static cofh.thermal.lib.util.ThermalIDs.*;
 import static cofh.thermal.lib.util.ThermalIDs.ID_URANIUM_ORE;
 
 public class TIntBlockLootTables extends BlockLootSubProviderCoFH {
+
+    public TIntBlockLootTables(HolderLookup.Provider registries) {
+
+        super(registries);
+    }
 
     @Override
     protected void generate() {
@@ -20,6 +27,8 @@ public class TIntBlockLootTables extends BlockLootSubProviderCoFH {
         createSimpleDropTable(regBlocks.get(ID_ROSE_GOLD_BLOCK));
         createSimpleDropTable(regBlocks.get(ID_STEEL_BLOCK));
         createSimpleDropTable(regBlocks.get(ID_URANIUM_BLOCK));
+        createSimpleDropTable(regBlocks.get(raw(ID_ALUMINUM_BLOCK)));
+        createSimpleDropTable(regBlocks.get(raw(ID_URANIUM_BLOCK)));
 
         add(regBlocks.get(ID_ALUMINUM_ORE), getSilkTouchOreTable(regBlocks.get(ID_ALUMINUM_ORE), regItems.get("raw_aluminum")));
         add(regBlocks.get(ID_URANIUM_ORE), getSilkTouchOreTable(regBlocks.get(ID_URANIUM_ORE), regItems.get("raw_uranium")));

@@ -1,0 +1,30 @@
+{
+  "type": "thermal:tree_extractor",
+  "trunk": {
+    "Name": "biomesoplenty:willow_log",
+    "Properties": {
+      "axis": "y"
+    }
+  },
+  "leaves": {
+    "Name": "biomesoplenty:willow_leaves",
+    "Properties": {
+      "persistent": "false"
+    }
+  },
+  "sapling": "biomesoplenty:willow_sapling",
+  "min_height": 8,
+  "max_height": 16,
+  "min_leaves": 16,
+  "max_leaves": 24,
+  "result": {
+    "fluid": "thermal:resin",
+    "amount": 15
+  },
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_biomesoplenty"
+    }
+  ]
+}

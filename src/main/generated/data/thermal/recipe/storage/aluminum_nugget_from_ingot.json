@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:aluminum"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thermal:aluminum_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "thermal:aluminum_nugget"
+  }
+}

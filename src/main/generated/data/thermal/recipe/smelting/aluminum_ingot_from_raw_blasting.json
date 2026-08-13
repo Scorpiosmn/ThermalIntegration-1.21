@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:aluminum"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "thermal:raw_aluminum"
+  },
+  "result": {
+    "count": 1,
+    "id": "thermal:aluminum_ingot"
+  }
+}

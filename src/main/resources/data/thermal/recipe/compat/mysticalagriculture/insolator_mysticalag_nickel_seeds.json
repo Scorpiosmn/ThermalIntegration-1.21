@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:nickel_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:nickel_essence"
+    },
+    {
+      "item": "mysticalagriculture:nickel_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}

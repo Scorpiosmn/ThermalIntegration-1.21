@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:certus_quartz_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:certus_quartz_essence"
+    },
+    {
+      "item": "mysticalagriculture:certus_quartz_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}

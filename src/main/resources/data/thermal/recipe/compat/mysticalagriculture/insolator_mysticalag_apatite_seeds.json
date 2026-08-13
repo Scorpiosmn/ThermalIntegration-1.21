@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:apatite_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:apatite_essence"
+    },
+    {
+      "item": "mysticalagriculture:apatite_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}

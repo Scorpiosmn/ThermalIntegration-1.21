@@ -1,0 +1,26 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copper",
+      "count": 3
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "tconstruct:rose_gold_ingot",
+      "count": 4
+    }
+  ],
+  "energy": 4000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_tconstruct"
+    }
+  ]
+}

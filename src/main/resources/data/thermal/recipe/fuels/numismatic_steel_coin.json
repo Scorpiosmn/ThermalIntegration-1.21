@@ -1,0 +1,13 @@
+{
+  "type": "thermal:numismatic_fuel",
+  "neoforge:conditions": [
+    {
+      "flag": "thermal:steel",
+      "type": "cofh_core:flag_set"
+    }
+  ],
+  "ingredient": {
+    "tag": "c:coins/steel"
+  },
+  "energy": 48000
+}

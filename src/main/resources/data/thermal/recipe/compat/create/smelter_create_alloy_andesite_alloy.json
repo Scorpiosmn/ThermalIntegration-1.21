@@ -1,0 +1,33 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {
+          "tag": "c:nuggets/iron"
+        },
+        {
+          "tag": "c:nuggets/zinc"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "item": "minecraft:andesite",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "create:andesite_alloy",
+      "count": 1
+    }
+  ],
+  "energy": 3200,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_create"
+    }
+  ]
+}

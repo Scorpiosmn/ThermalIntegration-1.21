@@ -1,0 +1,17 @@
+{
+  "type": "thermal:press",
+  "neoforge:conditions": [
+    {
+      "flag": "thermal:rose_gold",
+      "type": "cofh_core:flag_set"
+    }
+  ],
+  "ingredient": {
+    "tag": "c:ingots/rose_gold"
+  },
+  "result": [
+    {
+      "item": "thermal:rose_gold_plate"
+    }
+  ]
+}

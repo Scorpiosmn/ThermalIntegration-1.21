@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:aluminum"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_aluminum": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thermal:raw_aluminum"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thermal:smelting/aluminum_ingot_from_raw_blasting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_aluminum"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thermal:smelting/aluminum_ingot_from_raw_blasting"
+    ]
+  }
+}

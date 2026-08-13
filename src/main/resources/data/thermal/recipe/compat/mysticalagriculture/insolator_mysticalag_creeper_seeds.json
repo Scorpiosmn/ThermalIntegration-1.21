@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:creeper_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:creeper_essence"
+    },
+    {
+      "item": "mysticalagriculture:creeper_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}

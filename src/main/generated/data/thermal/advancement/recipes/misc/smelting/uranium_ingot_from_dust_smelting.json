@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:uranium"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thermal:smelting/uranium_ingot_from_dust_smelting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_uranium_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thermal:uranium_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_uranium_dust"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thermal:smelting/uranium_ingot_from_dust_smelting"
+    ]
+  }
+}

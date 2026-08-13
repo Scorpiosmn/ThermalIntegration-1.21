@@ -1,0 +1,24 @@
+{
+  "type": "thermal:press",
+  "neoforge:conditions": [
+    {
+      "flag": "thermal:rose_gold",
+      "type": "cofh_core:flag_set"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "thermal:rose_gold_ingot"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:rose_gold_nugget",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}

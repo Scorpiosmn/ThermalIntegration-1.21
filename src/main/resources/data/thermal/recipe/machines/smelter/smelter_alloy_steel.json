@@ -1,0 +1,31 @@
+{
+  "type": "thermal:smelter",
+  "neoforge:conditions": [
+    {
+      "flag": "thermal:steel",
+      "type": "cofh_core:flag_set"
+    }
+  ],
+  "ingredients": [
+    {
+      "value": [
+        {
+          "tag": "c:ingots/iron"
+        },
+        {
+          "tag": "c:dusts/iron"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "tag": "c:coal_coke"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:steel_ingot"
+    }
+  ],
+  "energy": 4800
+}

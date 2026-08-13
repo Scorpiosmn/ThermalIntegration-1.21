@@ -1,0 +1,17 @@
+{
+  "type": "thermal:press",
+  "neoforge:conditions": [
+    {
+      "flag": "thermal:steel",
+      "type": "cofh_core:flag_set"
+    }
+  ],
+  "ingredient": {
+    "tag": "c:ingots/steel"
+  },
+  "result": [
+    {
+      "item": "thermal:steel_plate"
+    }
+  ]
+}

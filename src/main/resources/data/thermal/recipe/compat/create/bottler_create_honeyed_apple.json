@@ -1,0 +1,23 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "fluid_tag": "c:honey",
+      "amount": 250
+    }
+  ],
+  "result": [
+    {
+      "item": "create:honeyed_apple"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_create"
+    }
+  ]
+}

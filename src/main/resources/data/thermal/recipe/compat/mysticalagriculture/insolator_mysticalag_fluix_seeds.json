@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:fluix_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:fluix_essence"
+    },
+    {
+      "item": "mysticalagriculture:fluix_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}

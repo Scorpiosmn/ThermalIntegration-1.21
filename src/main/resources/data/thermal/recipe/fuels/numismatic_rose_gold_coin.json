@@ -1,0 +1,13 @@
+{
+  "type": "thermal:numismatic_fuel",
+  "neoforge:conditions": [
+    {
+      "flag": "thermal:rose_gold",
+      "type": "cofh_core:flag_set"
+    }
+  ],
+  "ingredient": {
+    "tag": "c:coins/rose_gold"
+  },
+  "energy": 48000
+}

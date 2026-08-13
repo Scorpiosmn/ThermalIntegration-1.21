@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:lapis_lazuli_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:lapis_lazuli_essence"
+    },
+    {
+      "item": "mysticalagriculture:lapis_lazuli_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}

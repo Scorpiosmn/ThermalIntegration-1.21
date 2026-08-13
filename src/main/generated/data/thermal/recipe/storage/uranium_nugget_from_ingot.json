@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:uranium"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thermal:uranium_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "thermal:uranium_nugget"
+  }
+}

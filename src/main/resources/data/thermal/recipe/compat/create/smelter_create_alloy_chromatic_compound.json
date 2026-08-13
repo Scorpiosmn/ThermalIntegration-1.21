@@ -1,0 +1,30 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "create:powdered_obsidian",
+      "count": 3
+    },
+    {
+      "tag": "c:dusts/glowstone",
+      "count": 3
+    },
+    {
+      "item": "create:polished_rose_quartz",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "create:chromatic_compound",
+      "count": 1
+    }
+  ],
+  "energy": 3200,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_create"
+    }
+  ]
+}

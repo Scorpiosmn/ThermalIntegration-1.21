@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:stone_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:stone_essence"
+    },
+    {
+      "item": "mysticalagriculture:stone_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}

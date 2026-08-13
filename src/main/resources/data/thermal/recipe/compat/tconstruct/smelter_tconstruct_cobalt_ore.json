@@ -1,0 +1,28 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": {
+    "tag": "c:ores/cobalt"
+  },
+  "result": [
+    {
+      "item": "tconstruct:cobalt_ingot",
+      "chance": 1.0
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 3,
+      "chance": 0.2
+    },
+    {
+      "item": "thermal:rich_slag",
+      "chance": 0.2
+    }
+  ],
+  "experience": 0.2,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_tconstruct"
+    }
+  ]
+}

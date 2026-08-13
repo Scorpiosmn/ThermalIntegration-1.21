@@ -1,0 +1,19 @@
+{
+  "type": "thermal:pulverizer",
+  "neoforge:conditions": [
+    {
+      "flag": "thermal:steel",
+      "type": "cofh_core:flag_set"
+    }
+  ],
+  "ingredient": {
+    "tag": "c:ingots/steel"
+  },
+  "result": [
+    {
+      "item": "thermal:steel_dust",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

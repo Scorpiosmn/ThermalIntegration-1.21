@@ -1,0 +1,19 @@
+{
+  "type": "thermal:smelter",
+  "neoforge:conditions": [
+    {
+      "flag": "thermal:rose_gold",
+      "type": "cofh_core:flag_set"
+    }
+  ],
+  "ingredient": {
+    "tag": "c:dusts/rose_gold"
+  },
+  "result": [
+    {
+      "item": "thermal:rose_gold_ingot",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

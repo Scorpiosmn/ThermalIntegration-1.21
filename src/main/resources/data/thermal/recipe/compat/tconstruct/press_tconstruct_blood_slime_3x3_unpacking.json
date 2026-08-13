@@ -1,0 +1,24 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "tconstruct:blood_slime"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "tconstruct:blood_slime_ball",
+      "count": 9
+    }
+  ],
+  "energy": 400,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_tconstruct"
+    }
+  ]
+}

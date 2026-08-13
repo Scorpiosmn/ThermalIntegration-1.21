@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:spider_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:spider_essence"
+    },
+    {
+      "item": "mysticalagriculture:spider_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}

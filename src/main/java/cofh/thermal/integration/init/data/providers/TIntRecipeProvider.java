@@ -2,8 +2,11 @@ package cofh.thermal.integration.init.data.providers;
 
 import cofh.lib.common.conditions.FlagSetCondition;
 import cofh.lib.init.data.RecipeProviderCoFH;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.RecipeOutput;
+
+import java.util.concurrent.CompletableFuture;
 
 import static cofh.lib.util.constants.ModIds.ID_THERMAL;
 import static cofh.thermal.core.ThermalCore.ITEMS;
@@ -11,9 +14,9 @@ import static cofh.thermal.lib.util.ThermalFlags.*;
 
 public class TIntRecipeProvider extends RecipeProviderCoFH {
 
-    public TIntRecipeProvider(PackOutput output) {
+    public TIntRecipeProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
 
-        super(output, ID_THERMAL);
+        super(output, registries, ID_THERMAL);
     }
 
     @Override

@@ -1,0 +1,27 @@
+{
+  "type": "thermal:tree_extractor",
+  "trunk": {
+    "Name": "biomesoplenty:fir_log"
+  },
+  "leaves": {
+    "Name": "biomesoplenty:fir_leaves",
+    "Properties": {
+      "persistent": "false"
+    }
+  },
+  "sapling": "biomesoplenty:fir_sapling",
+  "min_height": 3,
+  "max_height": 16,
+  "min_leaves": 6,
+  "max_leaves": 24,
+  "result": {
+    "fluid": "thermal:resin",
+    "amount": 15
+  },
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_biomesoplenty"
+    }
+  ]
+}

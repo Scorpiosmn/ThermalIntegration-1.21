@@ -1,0 +1,20 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "create:chocolate",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "create:bar_of_chocolate"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_create"
+    }
+  ]
+}

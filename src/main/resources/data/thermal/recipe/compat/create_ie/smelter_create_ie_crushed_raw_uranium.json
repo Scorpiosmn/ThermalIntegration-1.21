@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": {
+    "item": "create:crushed_raw_uranium"
+  },
+  "result": [
+    {
+      "item": "immersiveengineering:ingot_uranium",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5,
+  "experience": 0.1,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_create"
+    },
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_immersiveengineering"
+    }
+  ]
+}

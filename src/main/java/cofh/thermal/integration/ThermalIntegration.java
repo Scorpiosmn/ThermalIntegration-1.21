@@ -2,6 +2,7 @@ package cofh.thermal.integration;
 
 import cofh.core.common.config.ConfigManager;
 import cofh.thermal.integration.common.config.TIntConfig;
+import cofh.thermal.integration.init.data.TIntDataGen;
 import cofh.thermal.integration.init.registries.TIntBlocks;
 import cofh.thermal.integration.init.registries.TIntItems;
 import net.neoforged.bus.api.IEventBus;
@@ -38,6 +39,7 @@ public class ThermalIntegration {
                 .addCommonConfig(new TIntConfig());
 
         modEventBus.addListener(this::registrySetup);
+        modEventBus.addListener(TIntDataGen::gatherData);
 
         TIntBlocks.register();
         TIntItems.register();

@@ -61,8 +61,12 @@ public class TIntTagsProvider {
             tag(Tags.Blocks.ORES_IN_GROUND_DEEPSLATE).add(BLOCKS.get(deepslate(ID_ALUMINUM_ORE)));
             tag(Tags.Blocks.ORES_IN_GROUND_DEEPSLATE).add(BLOCKS.get(deepslate(ID_URANIUM_ORE)));
 
-            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(BLOCKS.get(ID_ALUMINUM_ORE));
-            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(BLOCKS.get(ID_URANIUM_ORE));
+            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(
+                    BLOCKS.get(ID_ALUMINUM_ORE),
+                    BLOCKS.get(ID_URANIUM_ORE),
+                    BLOCKS.get(deepslate(ID_ALUMINUM_ORE)),
+                    BLOCKS.get(deepslate(ID_URANIUM_ORE))
+            );
 
             tag(BlockTags.NEEDS_IRON_TOOL).add(BLOCKS.get(ID_ALUMINUM_ORE));
             tag(BlockTags.NEEDS_IRON_TOOL).add(BLOCKS.get(ID_URANIUM_ORE));
@@ -75,6 +79,8 @@ public class TIntTagsProvider {
             tag(BlockTags.MINEABLE_WITH_PICKAXE).add(BLOCKS.get(ID_ROSE_GOLD_BLOCK));
             tag(BlockTags.MINEABLE_WITH_PICKAXE).add(BLOCKS.get(ID_STEEL_BLOCK));
             tag(BlockTags.MINEABLE_WITH_PICKAXE).add(BLOCKS.get(ID_URANIUM_BLOCK));
+            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(BLOCKS.get(raw(ID_ALUMINUM_BLOCK)));
+            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(BLOCKS.get(raw(ID_URANIUM_BLOCK)));
 
             tag(BlockTags.NEEDS_STONE_TOOL).add(BLOCKS.get(ID_ROSE_GOLD_BLOCK));
 

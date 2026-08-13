@@ -1,0 +1,24 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:storage_aluminum"
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "immersiveengineering:ingot_aluminum",
+      "count": 9
+    }
+  ],
+  "energy": 400,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_immersiveengineering"
+    }
+  ]
+}

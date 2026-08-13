@@ -1,0 +1,21 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "mysticalagriculture:emerald_seeds"
+  },
+  "result": [
+    {
+      "item": "mysticalagriculture:emerald_essence"
+    },
+    {
+      "item": "mysticalagriculture:emerald_seeds"
+    }
+  ],
+  "energy": 100000,
+  "neoforge:conditions": [
+    {
+      "type": "cofh_core:flag_set",
+      "flag": "thermal:mod_mysticalagriculture"
+    }
+  ]
+}
